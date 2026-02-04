@@ -1,0 +1,77 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+.virtualenv/
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# Data files (usually large / sensitive)
+# =========================
+data/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.json
+
+# =========================
+# Model files
+# =========================
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# =========================
+# Logs & temp files
+# =========================
+logs/
+*.log
+*.tmp
+*.bak
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
